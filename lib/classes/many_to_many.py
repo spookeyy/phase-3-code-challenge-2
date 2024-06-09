@@ -24,7 +24,7 @@ class Band:
 
     @hometown.setter
     def hometown(self, value):
-        raise Exception("The band's homet own is immutable. You can't change it.")
+        raise Exception("The band's hometown is immutable. You can't change it.")
 
 
     # band has many concerts
