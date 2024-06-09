@@ -80,12 +80,12 @@ class TestBand:
         assert len(band_1.hometown) > 0
 
         # comment out the next two lines if using Exceptions
-        band_1.hometown = ""
-        assert band_1.hometown == "NYC"
+        # band_1.hometown = ""
+        # assert band_1.hometown == "NYC"
 
         # uncomment the next two lines if using Exceptions
-        # with pytest.raises(Exception):
-        #     band_1.hometown = ""
+        with pytest.raises(Exception):
+            band_1.hometown = ""
 
     def test_concerts(self):
         """band has many concerts"""
