@@ -27,7 +27,6 @@ class Band:
         raise Exception("The band's hometown is immutable. You can't change it.")
 
 
-    # band has many concerts
     def concerts(self):
         return self._concerts
 
